@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+      <img src="images/cover.png" alt="Bettering-U Cover" class="cover-image">
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                    <li><a href="better.html">Better</a></li>
+                    <li><a href="ing.html">ing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="support-us.html">Support Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <p>Join our Email List!</p>
+        <div class="container">
+            <div class="columns">
+              <div class="column is-half">
+                <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+                  <!-- Replace with your StaticForms accessKey -->
+                  <input type="hidden" name="accessKey" value="53b1122e-9a8f-4d0e-802a-819164967edd">
+                  <input type="hidden" name="subject" value="New Bettering-U Contact Submission">
+                  <!-- Replace with the url you want to redirect to -->
+                  <input type="hidden" name="redirectTo" value="https://betteringu.eth.limo/contact-success.html">
+                  <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                      <input class="input" type="text" name="name" placeholder="Enter Your Name" required>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                      <input class="input" type="email" name="email" placeholder="Enter Your Email" required>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                      <textarea class="textarea" name="message" placeholder="Optional - Enter Your Message"></textarea>
+                    </div>
+                  </div>
+                  <button class="button is-primary" type="Submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+    </main>
+    <footer>
+        <p>&copy; 2024 Bettering-U. All rights reserved.</p>
+    </footer>
+</body>
+</html>
